@@ -1,0 +1,32 @@
+body{
+  
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+
+}
+
+
+.container {
+    user-select: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.display{
+    text-align: center;
+}
+
+.btns {
+
+    display: flex;
+    justify-content: space-around;
+}
+.btn {
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(143, 143, 143);
+    text-align: center;
+}
